@@ -4,7 +4,7 @@ import time
 from atlassian import Jira
 
 
-# Return comment text if the ClickUp task comment has attachments
+# Return comment text if the ClickUp task comment has attachments 
 def task_has_attachment(task_data):
     for comment in task_data['comments']:
         if "em7pp" in comment['comment_text']:
